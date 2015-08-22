@@ -24,7 +24,8 @@ defmodule Spherical.Mixfile do
 
   defp deps do
     [{:ex_doc, "~> 0.8", only: :docs},
-     {:earmark, "~> 0.1", only: :docs}]
+     {:earmark, "~> 0.1", only: :docs},
+     {:inch_ex, "~> 0.2", only: :docs},]
   end
 
   def description do
